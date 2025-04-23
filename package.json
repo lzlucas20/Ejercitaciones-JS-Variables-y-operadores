@@ -1,0 +1,20 @@
+{
+  "name": "javascript-ejercicios",
+  "version": "1.0.0",
+  "description": "Ejercicios de JavaScript - Variables y Operadores",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "javascript",
+    "ejercicios",
+    "variables",
+    "operadores"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

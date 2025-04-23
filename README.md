@@ -1,76 +1,125 @@
-
-# Ejercicios de JavaScript  - Variables y Operadores
+# Ejercicios de JavaScript - Variables y Operadores
 
 Este repositorio contiene una serie de ejercicios de JavaScript diseñados para reforzar los conceptos básicos sobre variables y operadores. Los ejercicios están organizados en carpetas temáticas y cada archivo `.js` contiene los enunciados de las actividades como comentarios.
 
 ## Estructura del Repositorio
 
-La estructura del repositorio es la siguiente:
-
 ```
 JavaScript_ejercicios/
 ├── 1. Declaración y Asignación de Variables/
-│   └── ejercicios.js
+│   ├── ejercicios.js
+│   └── ejercicios.test.js
 ├── 2. Operadores Aritméticos/
-│   └── ejercicios.js
+│   ├── ejercicios.js
+│   └── ejercicios.test.js
 ├── 3. Concatenación de Cadenas/
-│   └── ejercicios.js
+│   ├── ejercicios.js
+│   └── ejercicios.test.js
 ├── 4. Operadores de Asignación/
-│   └── ejercicios.js
+│   ├── ejercicios.js
+│   └── ejercicios.test.js
 ├── 5. Tipos de Datos y Conversión de Tipos/
-│   └── ejercicios.js
+│   ├── ejercicios.js
+│   └── ejercicios.test.js
 ├── 6. Propiedades y Métodos en Strings/
-│   └── ejercicios.js
+│   ├── ejercicios.js
+│   └── ejercicios.test.js
 └── 7. Uso de `let`, `const` y `var`/
-    └── ejercicios.js
+    ├── ejercicios.js
+    └── ejercicios.test.js
 ```
 
-## Ejercicios
+## Cómo empezar
 
-### 1. Declaración y Asignación de Variables
-- **Ejercicio 1.1:** Declara una variable llamada `nombre` y asígnale tu nombre.
-- **Ejercicio 1.2:** Declara una variable llamada `edad` y asígnale tu edad.
-- **Ejercicio 1.3:** Declara una variable llamada `esEstudiante` y asígnale el valor `true` si eres estudiante o `false` si no lo eres.
+### Requisitos previos
 
-### 2. Operadores Aritméticos
-- **Ejercicio 2.1:** Declara dos variables, `a` y `b`, asígnales los valores 5 y 3 respectivamente. Calcula y muestra en la consola el resultado de:
-  - La suma de `a` y `b`.
-  - La resta de `a` y `b`.
-  - La multiplicación de `a` y `b`.
-  - La división de `a` entre `b`.
-  - El módulo de `a` y `b`.
+Para trabajar con estos ejercicios, necesitarás:
 
-### 3. Concatenación de Cadenas
-- **Ejercicio 3.1:** Declara dos variables, `saludo` y `nombre`, y asígnales los valores `"Hola"` y tu nombre respectivamente. Usa el operador de concatenación para unir estas dos cadenas y muestra el resultado en la consola.
+1. Node.js instalado en tu computadora (versión 12 o superior)
+2. Un editor de código como Visual Studio Code, Sublime Text, Atom, etc.
 
-### 4. Operadores de Asignación
-- **Ejercicio 4.1:** Declara una variable `x` y asígnale el valor 10. Usa los operadores de asignación compuesta para realizar las siguientes operaciones:
-  - Suma 5 a `x`.
-  - Resta 3 de `x`.
-  - Multiplica `x` por 2.
-  - Divide `x` entre 4.
-  - Calcula el módulo de `x` con 3.
+### Pasos para ejecutar los ejercicios
 
-### 5. Tipos de Datos y Conversión de Tipos
-- **Ejercicio 5.1:** Declara una variable `cadenaNumero` y asígnale el valor `"123"`. Convierte esta cadena a un número y almacénalo en una nueva variable `numeroConvertido`. Muestra ambos valores en la consola.
-- **Ejercicio 5.2:** Declara una variable `booleano` y asígnale el valor `true`. Convierte este valor a una cadena y almacénalo en una nueva variable `cadenaBooleano`. Muestra ambos valores en la consola.
+1. **Forkear y Clonar el repositorio**:
+   ```bash
+   git clone https://github.com/tu-usuario/Ejercitaciones-JS-Variables-y-operadores
+   cd Ejercitaciones-JS-Variables-y-operadores
+   ```
 
-### 6. Propiedades y Métodos en Strings
-- **Ejercicio 6.1:** Declara una variable `frase` y asígnale el valor `"JavaScript es genial"`. Usa el método `length` para mostrar la longitud de la cadena.
-- **Ejercicio 6.2:** Usa el método `indexOf` para encontrar la posición de la palabra `"genial"` en la variable `frase` y muestra el resultado en la consola.
-- **Ejercicio 6.3:** Usa el método `slice` para extraer la palabra `"JavaScript"` de la variable `frase` y muestra el resultado en la consola.
-- **Ejercicio 6.4:** Declara una variable `nombreCompleto` y asígnale el valor `"   Juan Pérez   "`. Usa el método `trim` para eliminar los espacios en blanco al principio y al final de la cadena y muestra el resultado en la consola.
-- **Ejercicio 6.5:** Declara una variable `cancion` y asígnale el valor `"Twinkle, twinkle, little star"`. Usa el método `split` para dividir la cadena en palabras individuales y muestra el resultado en la consola.
+2. **Instalar las dependencias**:
+   ```bash
+   npm install
+   ```
 
-### 7. Uso de `let`, `const` y `var`
-- **Ejercicio 7.1:** Declara una variable usando `let` dentro de un bloque de código (`{}`) y muestra que no está disponible fuera del bloque.
-- **Ejercicio 7.2:** Declara una constante `PI` y asígnale el valor `3.14159`. Intenta reasignar otro valor a `PI` y observa lo que ocurre.
-- **Ejercicio 7.3:** Declara una variable `mensaje` usando `var` y asígnale el valor `"Hola Mundo"`. Declara la misma variable `mensaje` dentro de una función y asígnale un valor diferente. Muestra ambos valores en la consola para ver cómo `var` afecta el alcance de las variables.
+3. **Editar los archivos de ejercicios**:
+   - Abre el archivo `ejercicios.js` dentro de la carpeta del tema que desees trabajar.
+   - Lee los comentarios que describen cada ejercicio.
+   - Escribe tu código debajo de cada enunciado.
+   - No modifiques las líneas que comienzan con `module.exports = {`.
 
-## Contribución
+4. **Ejecutar los tests para verificar tus soluciones**:
+   ```bash
+   npm test
+   ```
 
-Si deseas contribuir a este repositorio, por favor, abre un issue o envía un pull request con tus cambios. ¡Gracias por tu colaboración!
+## Guía paso a paso para resolver los ejercicios
 
-## Licencia
+1. **Lee el enunciado cuidadosamente**:
+   Cada ejercicio tiene un comentario que explica lo que debes hacer.
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+2. **Escribe tu solución**:
+   Programa tu solución debajo del comentario correspondiente.
+
+3. **Verifica tu solución**:
+   Ejecuta `npm test` para comprobar si tu solución es correcta.
+
+4. **Analiza los errores**:
+   Si el test falla, lee el mensaje de error para entender qué esperaba la prueba y cómo difiere de tu solución.
+
+5. **Corrige y vuelve a intentar**:
+   Modifica tu código y ejecuta los tests nuevamente hasta que pasen.
+
+## Ejemplo
+
+En el archivo `1. Declaración y Asignación de Variables/ejercicios.js` encontrarás:
+
+```javascript
+// Ejercicio 1.1: Declara una variable llamada nombre y asígnale tu nombre.
+// Tu código aquí:
+
+
+// Ejercicio 1.2: Declara una variable llamada edad y asígnale tu edad.
+// Tu código aquí:
+
+
+// No modifiques esta línea
+module.exports = { nombre, edad, esEstudiante };
+```
+
+Deberías completarlo así:
+
+```javascript
+// Ejercicio 1.1: Declara una variable llamada nombre y asígnale tu nombre.
+// Tu código aquí:
+let nombre = "María";
+
+// Ejercicio 1.2: Declara una variable llamada edad y asígnale tu edad.
+// Tu código aquí:
+let edad = 25;
+
+// Ejercicio 1.3: Declara una variable llamada esEstudiante y asígnale el valor true si eres estudiante o false si no lo eres.
+// Tu código aquí:
+let esEstudiante = true;
+
+// No modifiques esta línea
+module.exports = { nombre, edad, esEstudiante };
+```
+
+## Consejos
+
+- No modifiques las líneas que exportan las variables (`module.exports = {...}`).
+- Asegúrate de que los nombres de las variables coincidan exactamente con los solicitados en los ejercicios.
+- Si tienes dudas, consulta la documentación oficial de JavaScript en [MDN Web Docs](https://developer.mozilla.org/es/docs/Web/JavaScript).
+- Recuerda guardar los archivos después de modificarlos.
+
+¡Buena suerte y disfruta aprendiendo JavaScript!
