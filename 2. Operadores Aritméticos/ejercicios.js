@@ -7,6 +7,12 @@
 // El módulo de a y b.
 
 // Tu código aquí:
-
+let a = 5
+let b = 3
+let suma = a + b
+let resta = a - b
+let multiplicacion = a * b
+let division = a / b
+let modulo = a % b 
 // No modifiques esta línea
 module.exports = { suma, resta, multiplicacion, division, modulo }

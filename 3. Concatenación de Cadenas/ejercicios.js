@@ -3,6 +3,8 @@
 // El resultado debe tener un espacio entre "Hola" y tu nombre.
 
 // Tu código aquí:
-
+let saludo = "Hola"
+let nombre = "Lucas"
+let resultado = saludo + " " + nombre
 // No modifiques esta línea
 module.exports = { saludo, nombre, resultado }
